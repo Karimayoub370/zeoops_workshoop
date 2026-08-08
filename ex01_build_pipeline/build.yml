@@ -7,6 +7,7 @@ jobs:
     steps:
       - name: action/checkout
         uses: action/checkout@v4
-      - run: python3 --version
-      - run: pwd
-      - run: ls -la
+      - run: |
+            python3 --version
+            pwd
+            ls -la
