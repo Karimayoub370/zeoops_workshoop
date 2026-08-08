@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
 
         with:
-          python3-versionv: '3.11'
+          python3-version: '3.11'
 
       - run: python3 --version 
  
