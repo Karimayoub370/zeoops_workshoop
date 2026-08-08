@@ -1,8 +1,5 @@
 name: Hello ZeroOps 
-on : 
-  pull_request:
-  push:
-    branches: [main]
+on : push
 env:
     API_KEY: ${{ secrets.ABDRAHMAN }}
 jobs:
