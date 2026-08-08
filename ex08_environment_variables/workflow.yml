@@ -3,7 +3,9 @@ on :
   pull_request:
   push:
     branches: [main]
-
+env:
+    PROJECT_NAME: "ZeroOps"
+    AUTHOR: "DevOpsTeam" 
 jobs:
   backend:
     
@@ -11,9 +13,7 @@ jobs:
     steps:
       
       - uses: actions/checkout@v4
-        env:
-          PROJECT_NAME: "ZeroOps"
-          AUTHOR: "DevOpsTeam"      
+            
 
       - run: echo $PROJECT_NAME by $AUTHOR
  
