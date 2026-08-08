@@ -11,6 +11,9 @@ jobs:
       
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: python3 --versionv 3.11
+
+        with:
+          python3-versionv: 3.11
+
       - run: python3 --version 
  
