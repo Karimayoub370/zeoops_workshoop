@@ -6,7 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: action/checkout
-        uses: action/checkout@v4
+      - uses: action/checkout@v4
+
       - run: |
             python3 --version
             pwd
