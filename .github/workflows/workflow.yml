@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v4
             
 
-      - run: 'echo "key length: ${API_KEY}"'
+      - run: 'echo "key abdrahman: ${API_KEY}"'
  
